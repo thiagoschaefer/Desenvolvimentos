@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8"/>
+<link rel="stylesheet" type="text/css" href="css/estilo.css"/>
+<title>Inicio do projeto</title>
+</head>
+<body>
+	<header>
+		<h1 id="atencao"> Site em construção (Uma aplicação destinada a estudos)</h1> 
+			<div class="audio">
+				<!--controls autoplay-->
+			<audio controls src="Audio/TONES AND I - DANCE MONKEY (OFFICIAL VIDEO).mp3"> 
+				<source src="Audio/Billie Eilish - bad guy (Lyrics).mp3" type="audio/mpeg">
+				<source src="Audio/Imagine Dragons - Believer.mp3" type="audio/mpeg">
+				Seu browser não suporta áudio
+			</audio>
+		</div>
+	</header>
+	<section>
+		<div class="desc">
+			<p>Estou criando este site para estudar colocando em prática tudo que venho aprendendo
+				durante o tempo em relação a programação backend e frontend.
+				Meu intuito é criar um página que funcione como uma aplicação de desktop, essa página
+				está sendo criada com o intuito de colocar em prática skills do frontend e será a porta
+				de entrada de dados que serão trabalhados no backend.
+				Dito isso, aqui está um checklis que será construido de acordo com o desenvolvimento da página:</p>
+				
+		</div>
+		<div class="lista">
+			<ul>
+				<li>Criar página html</li>
+				<li>Definir estrutura da página</li>
+				<li>Definir quais serão os dados de entrada</li>
+				<li>Definir quais serão os retornos imediatos ou saudações</li>
+				<li>link o html ao css e ao JS</li>
+			</ul>
+		</div>	
+	</section>
+	<section class="segunda">
+			<div id="entradas">
+				<form action="Receber_dados.js" method="post">
+				<p>
+					<input type="text" placeholder="Digite aqui seu e-mail" name="email">
+				</p>
+				<p>
+					<input type="text" placeholder="Digite aqui sua idade" name="idade">
+				</p>		
+				<!--<p>
+					<input type="text" placeholder="Digite aqui a data de hoje" name="data">
+				</p>-->
+				<p>
+					<input type="submit" value="Enviar" id="enter"> 
+				</p>		
+			</div>
+	</section>
+			
+	
+	<footer>
+	
+	</footer>
+
+
+	<script src="js/funcoes.js"></script>
+	<!--<script>
+	var n1 = document.getElementsByClassName(input.email)	
+	</script>-->
+</body>
+</html>
